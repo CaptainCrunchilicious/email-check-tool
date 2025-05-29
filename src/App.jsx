@@ -7,7 +7,7 @@ import HowItWorks from './Howitworks';
 import './App.css'
 import AboutPage from './AboutPage';
 import './styles.css';
-
+import './mobile.css';
 function App() {
   const [currentPage,setCurrentPage] = useState('home');
   const renderPage = () => {
