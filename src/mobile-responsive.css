@@ -1,0 +1,335 @@
+/* mobile-responsive.css - Simple mobile fixes for existing styles */
+
+* {
+  box-sizing: border-box;
+}
+
+button, .nav-btn, .nav-button, input, select, textarea {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 100vw;
+  padding: 8px;
+}
+
+.wrapper {
+  padding: 0 8px;
+}
+
+.header-bar {
+  flex-direction: column;
+  padding: 12px;
+  gap: 12px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.nav-links {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+}
+
+.nav-btn, .nav-button {
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  margin: 2px;
+  white-space: nowrap;
+}
+
+.page-container {
+  padding: 12px;
+  margin: 8px 0;
+}
+
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.1rem; }
+
+.hero-title {
+  font-size: 1.6rem;
+}
+
+.how-it-works-title {
+  font-size: 1.8rem;
+}
+
+.card-grid,
+.feature-grid,
+.result-details {
+  grid-template-columns: 1fr !important;
+  gap: 12px;
+}
+
+/* Card adjustments */
+.card {
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.email-checker {
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 0 8px;
+}
+
+.email-input {
+  width: 100%;
+  max-width: 280px;
+  padding: 12px;
+  font-size: 16px; 
+}
+.button, .learn-more-button, .download-button {
+  width: 100%;
+  max-width: 280px;
+  padding: 12px 16px;
+  font-size: 0.9rem;
+  margin: 8px auto;
+  display: block;
+  text-align: center;
+}
+
+.result-item {
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.how-it-works-container {
+  padding: 16px 8px;
+}
+
+.timeline-wrapper {
+  padding-left: 16px;
+}
+
+.timeline-line {
+  left: 1.5rem;
+}
+
+.timeline-step {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.step-number {
+  align-self: center;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1rem;
+}
+
+.step-content {
+  padding: 16px;
+  width: 100%;
+}
+
+.footer {
+  padding: 24px 12px 16px;
+}
+
+.footer-content {
+  text-align: center;
+  gap: 20px;
+}
+
+.footer-links {
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer-brand {
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.download-section,
+.warning-box,
+.instruction-method,
+.alternative-section,
+.security-notice {
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.faq-item {
+  padding-left: 12px;
+  margin: 12px 0;
+}
+
+code {
+  word-break: break-all;
+  font-size: 0.8rem;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    padding: 16px;
+  }
+  
+  .header-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 24px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  
+  .nav-links {
+    width: auto;
+    gap: 12px;
+  }
+  
+  .nav-btn, .nav-button {
+    padding: 8px 16px;
+    font-size: 1rem;
+  }
+  
+  .page-container {
+    padding: 20px;
+  }
+  
+  .card-grid,
+  .feature-grid,
+  .result-details {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 16px;
+  }
+  
+  .email-checker {
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .button, .learn-more-button, .download-button {
+    width: auto;
+    display: inline-block;
+  }
+  
+  .timeline-step {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .step-number {
+    align-self: flex-start;
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.25rem;
+  }
+  
+  .footer-content {
+    text-align: left;
+  }
+  
+  .footer-links {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer-brand {
+    justify-content: flex-start;
+  }
+  
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+  
+  .hero-title {
+    font-size: 1.875rem;
+  }
+  
+  .how-it-works-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-grid,
+  .feature-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  
+  .how-it-works-title {
+    font-size: 3rem;
+  }
+  
+  .hero-title {
+    font-size: 2.25rem;
+  }
+}
+
+button:focus,
+.nav-btn:focus,
+.nav-button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+@media (max-width: 480px) {
+  .timeline-wrapper {
+    padding-left: 8px;
+  }
+  
+  .timeline-line {
+    left: 1.25rem;
+  }
+  
+  .timeline-step {
+    margin-left: 8px;
+  }
+  
+  .step-number {
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .nav-btn, .nav-button {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+  
+  .logo {
+    font-size: 1.1rem;
+  }
+  
+  h1 { font-size: 1.3rem; }
+  h2 { font-size: 1.2rem; }
+  
+  .hero-title {
+    font-size: 1.4rem;
+  }
+  
+  .how-it-works-title {
+    font-size: 1.6rem;
+  }
+}

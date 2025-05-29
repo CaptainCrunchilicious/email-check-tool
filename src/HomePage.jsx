@@ -3,7 +3,6 @@ import './styles.css';
 
 const APILAYER_API_KEY = import.meta.env.VITE_APILAYER_API_KEY;
 
-// Debug: Check environment variable
 console.log('Environment variable:', import.meta.env.VITE_APILAYER_API_KEY);
 console.log('Using API Key:', APILAYER_API_KEY ? 'Yes' : 'No');
 
