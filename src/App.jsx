@@ -8,7 +8,6 @@ import './App.css'
 import AboutPage from './AboutPage';
 import './styles.css';
 import './mobile.css';
-import { Analytics } from "@vercel/analytics/next"
 function App() {
   const [currentPage,setCurrentPage] = useState('home');
   const renderPage = () => {
@@ -31,7 +30,6 @@ function App() {
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <main>
         {renderPage()}
-        <Analytics />
       </main>
       <Footer />
     </div>
