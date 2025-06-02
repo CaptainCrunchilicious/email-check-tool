@@ -37,7 +37,6 @@ function App() {
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <main>
         {renderPage()}
-        <Analytics />
       </main>
       <Footer />
     </div>
