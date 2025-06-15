@@ -58,9 +58,7 @@ function HomePage({ onNavigate }) {
       <div className="result-container">
         <h3>Validation Results for {email}:</h3>
         <div className="result-details">
-          <div className="result-item">
-            <strong>Valid:</strong> {result.valid ? '✅ Yes' : '❌ No'}
-          </div>
+          
           {result.format_valid !== undefined && (
             <div className="result-item">
               <strong>Format Valid:</strong> {result.format_valid ? '✅ Yes' : '❌ No'}
@@ -91,11 +89,7 @@ function HomePage({ onNavigate }) {
               <strong>Free Email Provider:</strong> {result.free ? '📧 Yes' : '💼 No'}
             </div>
           )}
-          {result.score !== undefined && (
-            <div className="result-item">
-              <strong>Quality Score:</strong> {result.score}/1.0
-            </div>
-          )}
+          
         </div>
       </div>
     );
