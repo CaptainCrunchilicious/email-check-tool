@@ -8,22 +8,29 @@ import './App.css'
 import AboutPage from './AboutPage';
 import './styles.css';
 import './mobile.css';
+import IPTracker from './IPTracker';
+import AIEmailClassifierPage from './AIEmailClassifierPage';
 function App() {
-  const [currentPage,setCurrentPage] = useState('home');
+  const [currentPage, setCurrentPage] = useState('home');
   const renderPage = () => {
-  switch (currentPage) {
-    case 'home':
-      return <HomePage onNavigate={setCurrentPage} />;
-    case 'features':
-      return <FeaturesPage onNavigate={setCurrentPage} />;
-    case 'howitworks':
-      return <HowItWorks />;
-    case 'about':
-      return <AboutPage onNavigate={setCurrentPage} />;
-    default:
-      return <HowItWorks onNavigate={setCurrentPage} />;
-  }
-};
+    switch (currentPage) {
+      case 'home':
+        return <HomePage onNavigate={setCurrentPage} />;
+      case 'features':
+        return <FeaturesPage onNavigate={setCurrentPage} />;
+      case 'howitworks':
+        return <HowItWorks />;
+      case 'about':
+        return <AboutPage onNavigate={setCurrentPage} />;
+
+      case 'classifier':
+        return <AIEmailClassifierPage />;
+      case 'ipTracker':
+        return <IPTracker />;
+      default:
+        return <HowItWorks onNavigate={setCurrentPage} />;
+    }
+  };
 
   return (
     <div className="app-container">

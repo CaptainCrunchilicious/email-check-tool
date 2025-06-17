@@ -1,0 +1,54 @@
+.scanner-page {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.scanner-page h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+    color: #2b2b2b;
+    text-align: center;
+}
+
+.scanner-page input,
+.scanner-page textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+.scanner-page button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.scanner-page button:hover {
+    background-color: #0056b3;
+}
+
+.result-box {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-left: 4px solid #007bff;
+    border-radius: 6px;
+    font-size: 1rem;
+    line-height: 1.5;
+    word-wrap: break-word;
+}

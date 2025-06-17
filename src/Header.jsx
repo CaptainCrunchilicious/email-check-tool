@@ -11,6 +11,22 @@ function Header({ currentPage, setCurrentPage }) {
         >
           Home
         </button>
+
+        <button
+          onClick={() => setCurrentPage('classifier')}
+          className={currentPage === 'classifier' ? 'nav-btn active' : 'nav-btn'}
+        >
+          AI Classifier
+        </button>
+
+        <button
+          onClick={() => setCurrentPage('ipTracker')}
+          className={currentPage === 'ipTracker' ? 'nav-btn active' : 'nav-btn'}
+        >
+          IP Tracker
+        </button>
+
+
         <button
           onClick={() => setCurrentPage('features')}
           className={currentPage === 'features' ? 'nav-btn active' : 'nav-btn'}
@@ -24,10 +40,10 @@ function Header({ currentPage, setCurrentPage }) {
           How It Works
         </button>
         <button
-        onClick={() => setCurrentPage('about')}
-        className={currentPage === 'about' ? 'nav-btn active' : 'nav-btn'}
+          onClick={() => setCurrentPage('about')}
+          className={currentPage === 'about' ? 'nav-btn active' : 'nav-btn'}
         >
-        About
+          About
         </button>
 
       </nav>
