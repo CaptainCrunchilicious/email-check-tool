@@ -151,7 +151,7 @@ The application will be available at `http://localhost:5173`
 
 ### Browser Extension
 
-![How It Works](https://claude.ai/chat/screenshots/how-it-works.png)
+![How It Works](screenshots/how-it-works.png)
 
 #### Step-by-Step Process:
 
@@ -276,7 +276,7 @@ npm run build:extension
 📝 License
 ----------
 
-This project is licensed under the MIT License - see the [LICENSE](https://claude.ai/chat/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE]() file for details.
 
 🔮 Roadmap
 ----------
