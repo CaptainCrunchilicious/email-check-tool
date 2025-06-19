@@ -8,7 +8,7 @@ A comprehensive security toolkit that combines email breach detection, validatio
 
 **Try it now**: <https://email-tool-kiit-cua0g4bxaycxb3hd.centralindia-01.azurewebsites.net/>
 
-![Main Interface](https://claude.ai/chat/screenshots/main-interface.png)
+![Main Interface](screenshots/main-interface.png)
 
 🛡️ Core Features
 -----------------
@@ -23,7 +23,7 @@ A comprehensive security toolkit that combines email breach detection, validatio
 -   **Role-based Email Detection**: Detect generic business emails (admin@, info@, etc.)
 -   **Free Provider Recognition**: Identify emails from free services (Gmail, Yahoo, etc.)
 
-![Email Results](https://claude.ai/chat/screenshots/email-results.png)
+![Email Results](screenshots/email-results.png)
 
 ### IP Address Tracking
 
@@ -32,7 +32,7 @@ A comprehensive security toolkit that combines email breach detection, validatio
 -   **Timezone Detection**: Determine timezone information
 -   **Country & Region Mapping**: Detailed geographical data
 
-![IP Tracker](https://claude.ai/chat/screenshots/ip-tracker.png)
+![IP Tracker](screenshots/ip-tracker.png)
 
 ### AI Email Classifier
 
@@ -41,7 +41,7 @@ A comprehensive security toolkit that combines email breach detection, validatio
 -   **Security Alert Verification**: Verify if security emails are legitimate
 -   **Smart Classification**: AI-powered email categorization (Legitimate/Suspicious/Malicious)
 
-![AI Classifier](https://claude.ai/chat/screenshots/ai-classifier.png)
+![AI Classifier](screenshots/ai-classifier.png)
 
 ### Browser Extension
 
@@ -50,7 +50,7 @@ A comprehensive security toolkit that combines email breach detection, validatio
 -   **Instant Notifications**: Real-time alerts for breaches and invalid emails
 -   **No Data Storage**: All operations performed locally with minimal API calls
 
-![Extension Features](https://claude.ai/chat/screenshots/extension-features.png)
+![Extension Features](screenshots/extension-features.png)
 
 🚀 Installation & Setup
 -----------------------
@@ -108,7 +108,7 @@ The application will be available at `http://localhost:5173`
 4.  Drag and drop the .crx file onto the extensions page
 5.  Click "Add extension" when prompted
 
-![Extension Installation](https://claude.ai/chat/screenshots/extension-install.png)
+![Extension Installation](screenshots/extension-install.png)
 
 📋 How to Use
 -------------
